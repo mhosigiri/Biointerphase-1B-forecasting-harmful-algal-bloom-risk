@@ -29,6 +29,8 @@ env/
 *.parquet
 # Final modelling tables, committed so the team can train without rerunning the notebooks
 !/data/final/*.parquet
+# Leaderboards and curves written by notebook 06
+/notebooks/outputs_06/
 
 # Local logs and test reports
 *.log
